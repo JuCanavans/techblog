@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        module.exports = {
+            theme: {
+                extend: {
+                    colors: {
+                        'colorb': '#EAEAEA',
+                        'bg-color-button': '#846AFF',
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <title>TechBlog</title>
+</head>
+<body>
+   <header>
+        <div class="info_description">
+            <h1>Encontre os <span>melhores artigos</span> de programação em um só lugar</h1>
+            <p>Explore o topo da programação em um só lugar! Seu destino único para dicas e tendências atuais.</p>
+            <button class="button">
+                Buscar artigos
+            </button>
+        </div>
+        <img src="./img/image (1).svg" alt="">
+   </header>
+
+   <section>
+        <main class="section_main_links">
+            <h2>Artigos recomendados</h2>
+            <ul>
+                <li>
+                    <img src="./img/image.svg" alt="">
+                    <div class="li_text">
+                        <p>O que é linguagem de programação? Conheça as principais</p>
+                        <span>Uma das mais populares vertentes da tecnologia da informação, a área de...</span>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/image-1.svg" alt="">
+                    <div class="li_text">
+                        <p>Python: por que a linguagem é tão usada para Data Science e finanças?</p>
+                        <span>O mundo da programação conta com algumas opções de linguagem para...</span>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/image-2.svg" alt="">
+                    <div class="li_text">
+                        <p>GitHub tem receita de US$ 1 bilhão e 90 milhões de usuários</p>
+                        <span>O popular serviço de repositório de código GitHub foi adquirido pela...</span>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/image-3.svg" alt="">
+                    <div class="li_text">
+                        <p>15 comandos no GIT que os desenvolvedores precisam saber</p>
+                        <span>Dominar os comandos GIT é uma habilidade que se conquista com...</span>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/image-4.svg" alt="">
+                    <div class="li_text">
+                        <p>GIT e GitHub: o que são e quais as diferenças entre eles?</p>
+                        <span>Git e GibHub são dois softwares de controle de versão essenciais para...</span>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/image-5.svg" alt="">
+                    <div class="li_text">
+                        <p>GitHub Copilot ganha integração com GPT-4 e interface conversacional</p>
+                        <span>O GitHub Copilot, ferramenta de desenvolvimento baseada em IA...</span>
+                    </div>
+                </li>
+            </ul>
+        </main>
+   </section>
+
+   <footer>
+    <div class="contact">
+        <h2>Entre em contato</h2>
+        <input class="py-2 px-6 border-2 border-colorb-500 rounded" type="text" id="name" placeholder="Nome">
+        <input class="py-2 px-6 border-2 border-colorb-500 rounded" type="email" name="email" id="send_email" placeholder="Email">
+        <textarea class="py-2 px-5 border-2 border-colorb-500 rounded resize-none" cols="30" rows="10" placeholder="Assunto da mensagem"></textarea>
+        <button class="button button_contac">
+            Entre em Contato
+        </button>
+    </div>
+   </footer>
+</body>
+</html>

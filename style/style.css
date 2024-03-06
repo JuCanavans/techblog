@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+/**/
+@import url("./_header.css");
+@import url("./_section_links.css");
+@import url("./_footer_contact.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --ft-family: "Roboto", sans-serif;
+    --ft-family-secondary: "Merriweather", serif;
+    --bg-color-header: #F8F8FF;
+    --bg-color-button: #846AFF;
+    --cl-primary: #121214;
+}
+
+body{
+    font-family: var(--ft-family);
+    font-size: 15px;
+}
+
